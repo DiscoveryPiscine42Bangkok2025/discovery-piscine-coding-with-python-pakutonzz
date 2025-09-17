@@ -1,10 +1,5 @@
-#!/usr/bin/env python3
 
-def main():
-    num = int(input("Enter a number\n"))
+num = int(input("Enter a number\n"))
 
-    for i in range(0, 10):
-        print(i, "*", num, "=", i * num)
-
-if __name__ == "__main__":
-    main()
+for i in range(0, 10):
+    print(i, "*", num, "=", i * num)
